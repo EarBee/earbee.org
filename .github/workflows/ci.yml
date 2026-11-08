@@ -1,0 +1,24 @@
+# Checks every push and pull request: the formatting, that the site builds,
+# and the on-page SEO check (scripts/seo/check.cjs; only an error on a
+# published page fails it, never a draft). Publishing is pages.yml's job.
+name: CI
+
+on:
+  push:
+    branches: [main, draft]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run check
+      - run: npm run build
+      - run: node scripts/seo/check.cjs

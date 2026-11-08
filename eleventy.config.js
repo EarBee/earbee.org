@@ -2,7 +2,7 @@
 // (index.html) and the blog (blog/*.md) share one layout (_includes/), and
 // the result goes to _site/, which pages.yml publishes. `npm start` shows
 // it at http://localhost:8080 and reloads on every save. How to write and
-// publish a post: docs/blog.md at the top of the repository.
+// publish a post: docs/blog.md.
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import site from "./_data/site.json" with { type: "json" };
 
@@ -16,10 +16,22 @@ export default function (config) {
   for (const path of ["fonts", "img", "style.css", "download.js", "robots.txt"]) {
     config.addPassthroughCopy(path);
   }
-  // Not pages: this folder's README, and a build's output (also when it
-  // was sent elsewhere with --output, leaving an older _site/ here).
-  config.ignores.add("README.md");
-  config.ignores.add("_site/**");
+  // Not pages: the repository's own files (its README and notes for
+  // assistants, the docs, the SEO tools, the workflows, the owner's local/
+  // notes), and a build's output (also when it was sent elsewhere with
+  // --output, leaving an older _site/ here).
+  for (const path of [
+    "README.md",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "docs/**",
+    "scripts/**",
+    ".github/**",
+    "local/**",
+    "_site/**",
+  ]) {
+    config.ignores.add(path);
+  }
 
   // A post with `draft: true` in its header: in the preview only.
   config.addPreprocessor("drafts", "*", (data) => {

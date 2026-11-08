@@ -1,14 +1,17 @@
 {
   "name": "earbee-site",
-  "description": "EarBee's website, earbee.org: the landing page and the blog, built with Eleventy. See ../docs/blog.md.",
+  "description": "EarBee's website, earbee.org: the landing page and the blog, built with Eleventy. See docs/blog.md.",
   "private": true,
   "type": "module",
   "scripts": {
     "start": "eleventy --serve",
-    "build": "eleventy"
+    "build": "eleventy",
+    "check": "prettier --check .",
+    "format": "prettier --write ."
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.7",
-    "@11ty/eleventy-plugin-rss": "^3.1.0"
+    "@11ty/eleventy-plugin-rss": "^3.1.0",
+    "prettier": "^3.9.9"
   }
 }
