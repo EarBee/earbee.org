@@ -120,7 +120,7 @@ You may get some of them running with Wine, but I haven't tried, and I wouldn't 
 - **You want sheet music at the end:** MuseScore Studio, next to whichever of the others you use for the listening.
 - **You want guitar tab, or to share it with Guitar Pro users:** TuxGuitar.
 
-Whichever you choose, the method matters more than the tool: a short passage, slowed down, looped until you can sing it, then played. Here's [how to slow down a song without changing the pitch](/blog/slow-down-a-song-without-changing-pitch/), and if you need something to start on, [eight easy songs to transcribe](/blog/easy-songs-to-transcribe/).
+Whichever you choose, the method matters more than the tool: a short passage, slowed down, looped until you can sing it, then played. Here's [how to slow down a song without changing the pitch](/blog/slow-down-a-song-without-changing-pitch/), and if you need something to start on, [nine easy songs to transcribe](/blog/easy-songs-to-transcribe/).
 
 ## Try EarBee
 

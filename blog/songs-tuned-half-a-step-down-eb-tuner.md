@@ -327,7 +327,7 @@ Some of these are tuned half a step down; some are in standard tuning. Use the m
 - Nirvana, "Smells Like Teen Spirit"
 - Van Halen, "Ain't Talkin' 'bout Love"
 
-Once you've decided for each one, play along: retuned, or with the recording shifted. If it fits on every note, you got it right. For more songs to learn by ear, with what each one trains, see [eight easy songs to transcribe](/blog/easy-songs-to-transcribe/).
+Once you've decided for each one, play along: retuned, or with the recording shifted. If it fits on every note, you got it right. For more songs to learn by ear, with what each one trains, see [nine easy songs to transcribe](/blog/easy-songs-to-transcribe/).
 
 ## Try EarBee
 

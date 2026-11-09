@@ -39,7 +39,7 @@ There are apps that listen to a recording and write out the notes. If all you ne
 
 ## How to start
 
-1. **Pick something short and clear,** such as a bass line, a vocal melody or a simple riff, in a song you already know well. For chords, here are [eight easy songs to start with](/blog/easy-songs-to-transcribe/).
+1. **Pick something short and clear,** such as a bass line, a vocal melody or a simple riff, in a song you already know well. For chords, here are [nine easy songs to start with](/blog/easy-songs-to-transcribe/).
 2. **Listen until you can sing it** along with the recording, before you pick up your instrument.
 3. **Loop one phrase,** a few bars at most, and stay on it until you have it.
 4. **Find the first note.** The rest of the phrase is much easier once you have it.

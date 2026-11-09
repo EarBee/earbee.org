@@ -56,7 +56,7 @@ It's slower at first, and it gets faster.
 4. **Decide: major or minor?** Play both on that root, along with the recording. Your ear will tell you which one is wrong.
 5. **Play along at full speed** to check, then move the loop on to the next change.
 
-If you're starting out, pick a song where this is easy. Here are [eight easy songs to transcribe](/blog/easy-songs-to-transcribe/).
+If you're starting out, pick a song where this is easy. Here are [nine easy songs to transcribe](/blog/easy-songs-to-transcribe/).
 
 ## What EarBee adds
 

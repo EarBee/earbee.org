@@ -79,7 +79,7 @@ On a song like that, you'll be listening closely anyway, and doing it from the s
 5. **Write it down** in whatever you use, tab, notation or a notebook, and move the loop on to the next phrase.
 6. **Play along at full speed** to check.
 
-If you're starting out, pick a song where this is easy: here are [eight easy songs to transcribe](/blog/easy-songs-to-transcribe/).
+If you're starting out, pick a song where this is easy: here are [nine easy songs to transcribe](/blog/easy-songs-to-transcribe/).
 
 ## What EarBee adds
 

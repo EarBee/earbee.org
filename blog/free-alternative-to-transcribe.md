@@ -88,7 +88,7 @@ If those matter to you, try its 30-day trial alongside a free tool, on the same 
 - **You only work out a riff now and then:** VLC is probably already on your computer.
 - **You need to edit the audio too:** Audacity, alongside one of the others.
 
-Whichever you pick, the tool matters less than the habit: a short passage, slowed down, looped until you can sing it, then played. If you need something to practise on, here are [eight easy songs to transcribe](/blog/easy-songs-to-transcribe/).
+Whichever you pick, the tool matters less than the habit: a short passage, slowed down, looped until you can sing it, then played. If you need something to practise on, here are [nine easy songs to transcribe](/blog/easy-songs-to-transcribe/).
 
 ## Why AI transcription won't replace transcribing by ear
 

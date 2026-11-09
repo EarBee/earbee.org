@@ -77,7 +77,7 @@ For the whole of the basics, Hindemith reckoned his book would keep a class and 
 In my view, the best way is to do both at once:
 
 1. **Work through the basics in order,** in a book like Hindemith's, without skipping the parts that feel too simple.
-2. **Transcribe real music alongside,** something short and clear that you'd like to play; here are [eight easy songs to start with](/blog/easy-songs-to-transcribe/). Working out a recording is dictation, with music you've never seen written down.
+2. **Transcribe real music alongside,** something short and clear that you'd like to play; here are [nine easy songs to start with](/blog/easy-songs-to-transcribe/). Working out a recording is dictation, with music you've never seen written down.
 3. **Write down at least some of what you transcribe,** for practice in dictation and reading at once.
 4. **When a song shows you a gap,** go back to that part of the course and work on it.
 

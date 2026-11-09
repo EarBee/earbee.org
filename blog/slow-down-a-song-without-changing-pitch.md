@@ -56,7 +56,7 @@ That's normal: the slicing that keeps the pitch also blurs what happens between 
 
 ## The other way round: same speed, different pitch
 
-The same technique works the other way: a player can shift the pitch and keep the speed. That helps when a recording doesn't match your instrument. Bands often tune down a half step or more, and some old recordings sound slightly sharp or flat because the tape ran at a slightly different speed. Shift the recording in semitones for a band that tuned down, and in cents for a small difference, and you can play along without retuning. Shifting a bass line up an octave helps too: it then sounds in your guitar's range, and its notes are much easier to pick out. Two of the [eight easy songs to transcribe](/blog/easy-songs-to-transcribe/) use these tricks.
+The same technique works the other way: a player can shift the pitch and keep the speed. That helps when a recording doesn't match your instrument. Bands often tune down a half step or more, and some old recordings sound slightly sharp or flat because the tape ran at a slightly different speed. Shift the recording in semitones for a band that tuned down, and in cents for a small difference, and you can play along without retuning. Shifting a bass line up an octave helps too: it then sounds in your guitar's range, and its notes are much easier to pick out. Two of the [nine easy songs to transcribe](/blog/easy-songs-to-transcribe/) use these tricks.
 
 ## Free ways to slow down a song
 

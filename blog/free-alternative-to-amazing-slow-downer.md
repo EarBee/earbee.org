@@ -109,7 +109,7 @@ Amazing Slow Downer's phone apps could once slow down songs from Spotify, until 
 - **You practise at a computer, and want to see the song, loop it bar by bar, mark its parts or watch a video:** EarBee.
 - **You're not sure:** EarBee costs nothing, and Amazing Slow Downer has a trial. Use both on the same song for a week, and you'll know.
 
-Whichever you choose, the tool matters less than the habit: a short passage, slowed down until you can play it cleanly, looped, then brought back up to speed. If you need something to start on, here are [eight easy songs to transcribe](/blog/easy-songs-to-transcribe/). And if you're weighing up the other well-known paid tool, here's [how EarBee compares with Transcribe!](/blog/free-alternative-to-transcribe/)
+Whichever you choose, the tool matters less than the habit: a short passage, slowed down until you can play it cleanly, looped, then brought back up to speed. If you need something to start on, here are [nine easy songs to transcribe](/blog/easy-songs-to-transcribe/). And if you're weighing up the other well-known paid tool, here's [how EarBee compares with Transcribe!](/blog/free-alternative-to-transcribe/)
 
 ## Try EarBee
 
