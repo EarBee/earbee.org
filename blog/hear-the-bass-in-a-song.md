@@ -1,11 +1,12 @@
 ---
 title: "How to hear the bass in a song (and learn the bass line)"
-description: "Can't hear the bass in a song? Why it hides, and how to bring it out: the right headphones, an EQ, an octave up, the drums and the chords' roots."
+description: "Can't hear the bass in a song? Why it hides, and how to bring it out: the right headphones, an EQ, stem separation, an octave up, the drums and the roots."
 keyword: "how to hear the bass in a song"
 date: 2026-11-03
+updated: 2026-11-09
 ---
 
-To hear the bass in a song, first give it a chance to be heard: listen on headphones or speakers that can play low notes, turn the low end up and the rest down, and shift the recording up an octave so the bass moves to where your ear hears detail. Then follow the kick drum for the rhythm and the chords for the notes, one short loop at a time. Below: why the bass is so hard to hear, each of these in turn, and how to go from hearing the bass line to playing it.
+To hear the bass in a song, first give it a chance to be heard: listen on headphones or speakers that can play low notes, turn the low end up and the rest down, or separate the bass from the rest, and shift the recording up an octave so the bass moves to where your ear hears detail. Then follow the kick drum for the rhythm and the chords for the notes, one short loop at a time. Below: why the bass is so hard to hear, each of these in turn, and how to go from hearing the bass line to playing it.
 
 ## Why is the bass so hard to hear?
 
@@ -31,7 +32,15 @@ An equaliser (EQ) changes how loud each range of notes is. For the bass:
 
 It's like turning down the room's chatter to hear one person talk. They don't get any louder; everyone else just gets out of the way.
 
-## 3. Shift it up an octave
+## 3. Separate the bass from the rest
+
+An EQ turns a range of notes up or down, but everything in that range comes along: the kick drum, the low end of the guitar and the piano. Stem separation goes further. An AI model listens to the recording and splits it into its instruments, called stems: the vocals, the drums, the bass, the guitar, the piano and the rest. Then you can play the bass on its own, or turn it up over a quieter band.
+
+It isn't perfect. The model is guessing what belongs to the bass, so you may hear traces of the kick drum or the guitar in it, and a note here and there can sound thin or smeared. For working out a bass line, though, it's usually more than clean enough, and much clearer than the full mix.
+
+In [EarBee](/), the separation runs on your computer, for the whole song or only the loop you're working on, and the stems keep in step at any speed or pitch. So you can solo the bass, slow it down and shift it up an octave, all at once.
+
+## 4. Shift it up an octave
 
 This one surprises people. Shift the recording's pitch up twelve semitones, an octave, and the bass moves up to where a guitar or a voice would be. Our ears are much better at telling notes apart there, so a line that was a low rumble becomes a tune you can hum.
 
@@ -39,19 +48,19 @@ The notes keep their names: an E is still an E, only an octave higher. So what y
 
 Shifting the pitch and boosting the lows go well together: after an octave up, boost the range where the bass now sits.
 
-## 4. Follow the drums for the rhythm
+## 5. Follow the drums for the rhythm
 
 The bass and the kick drum usually lock together. If you can hear the kick, you know where many of the bass notes land, even before you know which notes they are. Tap the rhythm first, then fill in the pitches.
 
 Rhythm is half of a bass line, and often the half that makes it groove. A wrong note in the right place sounds better than the right note in the wrong place.
 
-## 5. Use the chords to guess the notes
+## 6. Use the chords to guess the notes
 
 Most of the time, when the chord changes, the bass plays its root, the note the chord is named after, on the first beat. So if you know the chords, you have a good first guess for the bass's main notes. Then listen for what it does in between: walks up to the next chord, jumps an octave, or repeats.
 
 It works the other way round too: if you can find the bass notes, you're most of the way to the chords. That's why the bass is a good place to start when you transcribe a whole song.
 
-## 6. Loop one bar, and slow it down
+## 7. Loop one bar, and slow it down
 
 Don't take on the whole line at once. Loop a single bar and listen to it until you can hum it along with the recording. Then find the first note on your instrument; the rest of the bar is much easier from there.
 
@@ -63,15 +72,15 @@ Once you can hear it, learning the bass line by ear is the same method as for an
 
 1. **Bar by bar:** loop it, hum it, find it, play it along with the recording.
 2. **Join the bars** into a phrase, then the phrases into a section.
-3. **Take away the help** step by step: the octave shift first, then the EQ, then the slowing down.
-4. **Play along at full speed** with the real recording. If a bar sounds off, go back to it.
+3. **Take away the help** step by step: the octave shift first, then the EQ or the separated bass, then the slowing down.
+4. **Play along at full speed** with the real recording. If a bar sounds off, go back to it. With the stems, you can also turn the bass down and play it yourself, in its place.
 
 Start with songs where the bass is easy to hear. It's the same advice as for chords in [easy songs to transcribe](/blog/easy-songs-to-transcribe/): something clear and repetitive first, and the busy mixes later. And why it's worth the effort at all, rather than looking up the tab: [why transcribing makes you a better musician](/blog/why-transcribe-music-by-ear/).
 
 ## What about isolated bass tracks?
 
-For some well-known songs you can find the bass on its own, from the original studio tracks, by searching for "isolated bass" and the song's name. There are also AI tools that split a recording into its instruments. Both help, but they're not always there, and they aren't always clean. The steps above work on any recording, and the skill stays with you when there's nothing to isolate.
+For some well-known songs you can find the bass on its own, from the original studio tracks, by searching for "isolated bass" and the song's name. Those are the real thing, but only a few songs have them. Stem separation works on any recording, as above, with the small flaws that come from guessing. Both are a help, not a replacement: the steps above work with or without them, and the skill stays with you when there's nothing to isolate.
 
 ## Try EarBee
 
-[EarBee](/) is a free, open-source player made for learning music by ear. It has an EQ to bring the bass forward, shifts the pitch up an octave without changing the speed, and slows a song or a video down without changing the pitch. You draw a loop on the waveform and step through a bar from the keyboard, and it can find the beats and bars, so a loop fits the music. Everything is in the download: there's [no trial, no paid version and no account](/#free). It runs on Windows, macOS and Linux: [download it here](/#download).
+[EarBee](/) is a free, open-source player made for learning music by ear. It has an EQ to bring the bass forward, separates the bass (and the other instruments) from the rest of the song, shifts the pitch up an octave without changing the speed, and slows a song or a video down without changing the pitch. You draw a loop on the waveform and step through a bar from the keyboard, and it can find the beats and bars, so a loop fits the music. Everything is in the download: there's [no trial, no paid version and no account](/#free). It runs on Windows, macOS and Linux: [download it here](/#download).
