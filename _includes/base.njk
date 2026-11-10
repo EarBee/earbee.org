@@ -57,6 +57,7 @@
         "operatingSystem": "Windows, macOS, Linux",
         "downloadUrl": "https://github.com/wiktor-rocks/earbee/releases/latest",
         "license": "https://opensource.org/licenses/MIT",
+        "author": { "@type": "Person", "name": "{{ site.author }}", "url": "https://wiktor.rocks" },
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
       }
     </script>
@@ -88,7 +89,7 @@
         "dateModified": "{{ (updated or page.date) | isoDate }}",
         "mainEntityOfPage": "{{ page.url | absolute }}",
         "author": { "@type": "Person", "name": "{{ site.author }}" },
-        "publisher": { "@type": "Organization", "name": "{{ site.name }}", "url": "{{ site.url }}/" }
+        "publisher": { "@type": "Organization", "name": "{{ site.name }}", "url": "{{ site.url }}/", "email": "{{ site.email }}" }
       }
     </script>
     {%- endif %}
@@ -146,7 +147,8 @@
         <a href="https://github.com/CPJKU/beat_this">Beat This!</a> on
         <a href="https://onnxruntime.ai">ONNX Runtime</a>, video by <a href="https://mediabunny.dev">Mediabunny</a>,
         downloads by <a href="https://github.com/yt-dlp/yt-dlp">yt-dlp</a>. Created by
-        <a href="https://wiktor.rocks">wiktor.rocks</a>.
+        <a href="https://wiktor.rocks">wiktor.rocks</a>. Questions, ideas, a bug:
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
       </p>
       <nav class="footer-links">
         <a href="/blog/">Blog</a>

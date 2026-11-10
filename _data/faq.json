@@ -39,5 +39,10 @@
   {
     "q": "Can I save my work?",
     "a": "Yes. A project file keeps your marks, loop, speed and EQ, with or without the song in it."
+  },
+  {
+    "q": "How do I get in touch?",
+    "a": "Email contact@earbee.org: a question, an idea, a bug, or just what you're learning with it.",
+    "link": { "href": "mailto:contact@earbee.org", "text": "Write an email" }
   }
 ]
