@@ -2,10 +2,12 @@ _site/
 node_modules/
 local/
 
-# The owner's working files, on this computer only: the notes and
-# instructions for people and assistants, the docs and the SEO tools.
-AGENTS.md
-CLAUDE.md
-README.md
-docs/
-scripts/
+# The owner's working files: the notes and instructions for people and
+# assistants, the docs and the SEO tools. They're kept in a private
+# repository (EarBee/earbee.org-private), checked out beside this folder;
+# these are links to it. No slashes, so the links match too.
+/AGENTS.md
+/CLAUDE.md
+/README.md
+/docs
+/scripts
