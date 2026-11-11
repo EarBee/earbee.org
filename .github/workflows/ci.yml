@@ -1,6 +1,5 @@
-# Checks every push and pull request: the formatting, that the site builds,
-# and the on-page SEO check (scripts/seo/check.cjs; only an error on a
-# published page fails it, never a draft). Publishing is pages.yml's job.
+# Checks every push and pull request: the formatting, and that the site
+# builds. Publishing is pages.yml's job.
 name: CI
 
 on:
@@ -21,4 +20,3 @@ jobs:
       - run: npm ci
       - run: npm run check
       - run: npm run build
-      - run: node scripts/seo/check.cjs

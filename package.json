@@ -1,6 +1,6 @@
 {
   "name": "earbee-site",
-  "description": "EarBee's website, earbee.org: the landing page and the blog, built with Eleventy. See docs/blog.md.",
+  "description": "EarBee's website, earbee.org: the landing page and the blog, built with Eleventy.",
   "private": true,
   "type": "module",
   "scripts": {

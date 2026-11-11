@@ -1,8 +1,7 @@
 # Builds the website with Eleventy and publishes it on GitHub Pages, at
 # earbee.org, whenever main changes. main is the live site; work happens on
-# draft, and publishing is moving main up to it (docs/blog.md, "Publish a
-# post"). One-time setup: Settings › Pages › Source "GitHub Actions", the
-# custom domain earbee.org, Enforce HTTPS.
+# draft, and publishing is moving main up to it. One-time setup: Settings ›
+# Pages › Source "GitHub Actions", the custom domain earbee.org, Enforce HTTPS.
 name: Website
 
 on:
