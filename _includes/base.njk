@@ -4,11 +4,13 @@
       title        the page's title (" · EarBee" is added, except on the home page)
       description  the line search engines and social sites show under it
       image        optional: the picture for social sites (default: site.json's)
+      imageAlt     with image: what the picture shows, for people who can't see it
       schema       optional: "app" (the home page) or "post" (blog posts), for
                    the structured data search engines read
     Addresses start with "/", so they work from any page (/blog/<post>/). -#}
 {%- set pageTitle = title if page.url == "/" else title + " · " + site.name -%}
 {%- set shareImage = (image or site.image) | absolute %}
+{%- set shareImageAlt = imageAlt if image else site.imageAlt %}
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -23,7 +25,9 @@
     <meta property="og:description" content="{{ description }}" />
     <meta property="og:url" content="{{ page.url | absolute }}" />
     <meta property="og:image" content="{{ shareImage }}" />
+    <meta property="og:image:alt" content="{{ shareImageAlt }}" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image:alt" content="{{ shareImageAlt }}" />
     <link rel="icon" type="image/png" href="/img/favicon.png" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.blogTitle }}" href="/blog/feed.xml" />
     <link rel="preload" href="/fonts/righteous-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
