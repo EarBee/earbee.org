@@ -3,6 +3,8 @@
 // the result goes to _site/, which pages.yml publishes. `npm start` shows
 // it at http://localhost:8080 and reloads on every save. How to write and
 // publish a post: docs/blog.md.
+import { createHash } from "node:crypto";
+import { readFileSync } from "node:fs";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import site from "./_data/site.json" with { type: "json" };
 
@@ -73,6 +75,18 @@ export default function (config) {
   // An address on the site, made absolute (canonical links, Open Graph,
   // the sitemap): "/blog/x/" → "https://earbee.org/blog/x/".
   config.addFilter("absolute", (path) => new URL(path, site.url).href);
+
+  // The stylesheet and the script, with a version in the address that
+  // changes when the file does: "/style.css" → "/style.css?v=1a2b3c4d".
+  // Browsers keep these files for a while (GitHub Pages: 10 minutes), so
+  // without it a new page could show with the old styles.
+  config.addFilter("versioned", (path) => {
+    const hash = createHash("sha256")
+      .update(readFileSync(`.${path}`))
+      .digest("hex")
+      .slice(0, 8);
+    return `${path}?v=${hash}`;
+  });
 }
 
 export const config = {

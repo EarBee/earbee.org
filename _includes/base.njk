@@ -31,7 +31,7 @@
     <link rel="icon" type="image/png" href="/img/favicon.png" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.blogTitle }}" href="/blog/feed.xml" />
     <link rel="preload" href="/fonts/righteous-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="{{ '/style.css' | versioned }}" />
     <script>
       // Set before the page shows, so nothing flashes:
       //  - the theme chosen with the button in the top bar (download.js);
@@ -47,7 +47,7 @@
         document.documentElement.classList.add("phone");
       }
     </script>
-    <script src="/download.js" defer></script>
+    <script src="{{ '/download.js' | versioned }}" defer></script>
     {%- if schema == "app" %}
     <script type="application/ld+json">
       {
