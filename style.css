@@ -1304,7 +1304,16 @@ main > .post {
   }
 }
 
-/* The AlternativeTo badge: its own picture, with a little lift on hover. */
+/* The AlternativeTo and SourceForge badges, side by side: each its own
+   picture, with a little lift on hover. SourceForge's has a picture for
+   each mode; the one that doesn't fit is hidden, the same way as the
+   theme switch's icons. */
+.listed .badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px 28px;
+}
 .listed .badge {
   display: inline-block;
   border-radius: 13px;
@@ -1317,4 +1326,24 @@ main > .post {
   display: block;
   max-width: 100%;
   height: auto;
+}
+.listed .badge.sourceforge {
+  border-radius: 50%;
+}
+.listed .badge .for-light {
+  display: none;
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) .listed .badge .for-dark {
+    display: none;
+  }
+  :root:not([data-theme="dark"]) .listed .badge .for-light {
+    display: block;
+  }
+}
+:root[data-theme="light"] .listed .badge .for-dark {
+  display: none;
+}
+:root[data-theme="light"] .listed .badge .for-light {
+  display: block;
 }
