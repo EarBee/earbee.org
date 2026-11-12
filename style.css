@@ -1304,7 +1304,8 @@ main > .post {
   }
 }
 
-/* The AlternativeTo and SourceForge badges, side by side: each its own
+/* The AlternativeTo and SourceForge badges, side by side and centred,
+   with no title: each its own
    picture, with a little lift on hover. SourceForge's has a picture for
    each mode; the one that doesn't fit is hidden, the same way as the
    theme switch's icons. */
@@ -1312,6 +1313,7 @@ main > .post {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   gap: 16px 28px;
 }
 .listed .badge {
@@ -1326,6 +1328,11 @@ main > .post {
   display: block;
   max-width: 100%;
   height: auto;
+}
+.listed .listed-note {
+  margin-top: 16px;
+  text-align: center;
+  color: var(--muted);
 }
 .listed .badge.sourceforge {
   border-radius: 50%;
