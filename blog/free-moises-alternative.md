@@ -3,7 +3,6 @@ title: "Free Moises alternative: stems on your own computer"
 description: "Looking for a free Moises alternative? What Moises does, what its free plan limits, and a free player that splits songs into stems on your own computer."
 keyword: "moises alternative"
 date: 2026-11-15
-draft: true
 ---
 
 Looking for a Moises alternative? It depends on what you use it for. If you use it to practise with recordings, to split a song into stems, slow it down and loop a passage, I'd suggest [EarBee](/), a free, open-source player for Windows, Mac and Linux. I make it, so weigh my opinion accordingly. If you want the chords and the lyrics worked out for you, or an app on your phone, EarBee isn't it, and I'll be fair about that too.
