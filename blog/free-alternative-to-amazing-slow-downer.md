@@ -3,6 +3,7 @@ title: "Free Amazing Slow Downer alternative for Mac and Windows"
 description: "A free Amazing Slow Downer alternative for Mac, Windows and Linux: how EarBee compares, what it adds, what it leaves out, and when to pay instead."
 keyword: "amazing slow downer alternative"
 date: 2026-10-28
+updated: 2026-11-15
 ---
 
 Looking for a free alternative to Amazing Slow Downer? I'd suggest [EarBee](/), a free, open-source player for Mac, Windows and Linux. I make it, so weigh my opinion accordingly. It slows music down without changing the pitch, like Amazing Slow Downer, and then helps with the rest of the work: seeing where you are in the song, looping it bar by bar, and marking the parts you've learned. Amazing Slow Downer still does a few things EarBee doesn't, and I'll be fair about those too.
@@ -41,7 +42,7 @@ Think of how you'd work out a solo. You listen to the whole thing first and find
 | Finds the beats and bars     | Yes                   | No                             |
 | Video                        | Yes, in sync          | No                             |
 | Opens YouTube links          | Yes                   | No                             |
-| Vocal removal                | No                    | Yes                            |
+| Vocal removal                | Yes, with stems       | Yes                            |
 | Foot pedal or MIDI control   | No                    | Yes                            |
 | Phone and tablet apps        | No                    | Yes, sold separately           |
 
@@ -77,7 +78,6 @@ To be fair to it, there are good reasons to buy it:
 
 - **Phone and tablet apps.** If you practise with your phone on a music stand, its iPhone, iPad and Android apps are the point, and they cost less than the computer version. EarBee runs on computers only.
 - **Foot pedal and MIDI control.** Start, stop and loop without taking your hands off your instrument at all.
-- **Vocal removal,** to turn the singer down and sing or play the part yourself.
 - **Speeding up as you go.** It can raise the speed a little each time the loop comes round, so you work your way up to full tempo without stopping. In EarBee you change the speed yourself.
 - **Audio CDs.** It plays a CD straight from the drive. EarBee opens files.
 

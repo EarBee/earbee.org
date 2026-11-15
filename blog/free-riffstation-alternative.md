@@ -3,6 +3,7 @@ title: "Free Riffstation alternative for Windows, Mac and Linux"
 description: "Riffstation is gone. A free Riffstation alternative for slowing down and looping songs, what it can't replace (the chords), and how to find them by ear."
 keyword: "riffstation alternative"
 date: 2026-11-06
+updated: 2026-11-15
 ---
 
 Looking for a Riffstation alternative? It depends on what you used it for. If you want a free app that slows a song down, shifts its pitch and loops a passage, I'd suggest [EarBee](/), a free, open-source player for Windows, Mac and Linux. I make it, so weigh my opinion accordingly. If what you want is the chords worked out for you, EarBee isn't it: it doesn't detect chords, and I'll explain why, and what you can do instead.
@@ -27,18 +28,18 @@ How good were the chords? Opinions differed. One [user](https://alternativeto.ne
 
 ## Side by side
 
-| What                         | EarBee                      | Riffstation Pro (when it was sold)            |
-| ---------------------------- | --------------------------- | --------------------------------------------- |
-| Price                        | Free                        | $34.99, then free, then withdrawn             |
-| Can you get it today?        | Yes                         | Not officially                                |
-| Systems                      | Windows, macOS, Linux       | Windows, macOS                                |
-| Opens                        | Audio, video, YouTube links | Audio files (YouTube only in the web version) |
-| Slower or faster, same pitch | Yes                         | Yes                                           |
-| Pitch shift                  | Yes                         | Yes                                           |
-| Loops                        | Drawn on a waveform         | Yes                                           |
-| Finds the beats and bars     | Yes                         | A metronome synced to the song                |
-| Detects the chords           | No                          | Yes                                           |
-| Isolates a guitar or a voice | No, but it has an EQ        | Yes                                           |
+| What                         | EarBee                                | Riffstation Pro (when it was sold)            |
+| ---------------------------- | ------------------------------------- | --------------------------------------------- |
+| Price                        | Free                                  | $34.99, then free, then withdrawn             |
+| Can you get it today?        | Yes                                   | Not officially                                |
+| Systems                      | Windows, macOS, Linux                 | Windows, macOS                                |
+| Opens                        | Audio, video, YouTube links           | Audio files (YouTube only in the web version) |
+| Slower or faster, same pitch | Yes                                   | Yes                                           |
+| Pitch shift                  | Yes                                   | Yes                                           |
+| Loops                        | Drawn on a waveform                   | Yes                                           |
+| Finds the beats and bars     | Yes                                   | A metronome synced to the song                |
+| Detects the chords           | No                                    | Yes                                           |
+| Isolates a guitar or a voice | Yes, by splitting the song into stems | Yes                                           |
 
 ## Why EarBee doesn't detect chords
 
@@ -81,7 +82,6 @@ You can mark each section, give it a name and a colour, and jump between them. A
 To be fair to it:
 
 - **The chords, as they played,** with the fingering beside them. If that's what you miss, EarBee won't replace it.
-- **Isolating a part.** Riffstation could pull forward a guitar or a voice, or mute it. EarBee's EQ can bring a range of notes forward, as with the bass, but that's not the same thing.
 
 ## Is there a Riffstation alternative for Mac or Linux?
 

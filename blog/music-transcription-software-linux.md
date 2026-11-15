@@ -3,6 +3,7 @@ title: "Music transcription software for Linux: what really runs"
 description: "Looking for music transcription software on Linux? Nine tools that run there, how each one installs, which famous ones don't, and which I'd pick."
 keyword: "music transcription software linux"
 date: 2026-11-09
+updated: 2026-11-15
 ---
 
 Looking for music transcription software on Linux? There's more than you might think, but less than on Windows or a Mac, and some of the well-known names don't run there at all. If you want one app made for working songs out by ear, with slowing down, loops, marks and video, try [EarBee](/), a free, open-source player for Linux, Windows and Mac. I make it, so weigh my opinion accordingly. I also build it on Linux, so Linux isn't an afterthought.
@@ -106,7 +107,7 @@ Some of the best-known tools for practising with recordings have no Linux versio
 - **Capo:** Mac, iPhone and iPad only ([Capo](https://supermegaultragroovy.com/products/capo/)).
 - **Anytune:** Mac, iPhone and iPad, and Android ([Anytune](https://www.anytune.app/)).
 - **Song Surgeon:** Windows and Mac ([Song Surgeon](https://www.songsurgeon.com/)).
-- **Moises:** desktop apps for Windows and Mac, but also a web app that runs in the browser, so you can use it from Linux that way ([Moises](https://moises.ai/)).
+- **Moises** is the exception: it does run on Linux. Its desktop app comes as an AppImage, and its web app runs in the browser ([Moises](https://moises.ai/)). It's a subscription with a limited free plan; here's [how it compares with EarBee](/blog/free-moises-alternative/).
 - **Riffstation** never had a Linux version, as far as I can find, and it's gone now anyway ([what happened to it](/blog/free-riffstation-alternative/)).
 
 You may get some of them running with Wine, but I haven't tried, and I wouldn't count on it for something you'll use every day.
