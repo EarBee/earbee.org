@@ -1,4 +1,4 @@
-{#- The email signup: new releases and blog posts, sent by Kit. A plain form
+{#- The email signup: new releases, blog posts and future projects, sent by Kit. A plain form
     that posts the address straight to Kit's form (site.json's signup), so
     the page loads nothing of Kit's. Kit then sends an email to confirm
     (double opt-in) and sends the visitor to /subscribed/; the link in that
@@ -12,7 +12,7 @@
   {%- if signupSize == "block" %}
   <h2 class="signup-title">Stay in the loop</h2>
   {%- endif %}
-  <label class="signup-label" for="signup-{{ signupId }}">New releases and blog posts, by email. Nothing else.</label>
+  <label class="signup-label" for="signup-{{ signupId }}">New releases, blog posts and future projects, by email. Nothing else.</label>
   <div class="signup-row">
     <input
       id="signup-{{ signupId }}"

@@ -11,7 +11,7 @@ signup: false
 
 # You're on the list
 
-Thanks! You'll get an email when there's a new version of EarBee or a new blog post. Every email has a link to unsubscribe.
+Thanks! You'll get an email when there's a new version of EarBee, a new blog post, or a new project I'm working on. Every email has a link to unsubscribe.
 
 [The home page](/) · [The blog](/blog/)
 
