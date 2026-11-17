@@ -9,7 +9,7 @@
   },
   {
     "q": "Which computers does it run on?",
-    "a": "Windows, macOS (Apple Silicon and Intel) and Linux. On Intel Macs, it finds the beats a simpler way, without the bars, and doesn't separate stems."
+    "a": "Windows, macOS 13 (Ventura) or later on Apple Silicon and Intel, and Linux. On Intel Macs, it finds the beats a simpler way, without the bars, and doesn't separate stems."
   },
   {
     "q": "Can I learn from a YouTube video with it?",
