@@ -224,6 +224,24 @@ function setUpMenu() {
   const menu = document.getElementById("site-menu");
   if (!menu?.hidePopover) return;
   for (const link of menu.querySelectorAll("a")) link.addEventListener("click", () => menu.hidePopover());
+  // Copy: the address to the clipboard, "Copied" for a moment. Shown only
+  // where the clipboard can be written (not over plain http).
+  const copy = menu.querySelector(".menu-copy");
+  if (!copy || !navigator.clipboard?.writeText) return;
+  copy.hidden = false;
+  let restore;
+  copy.addEventListener("click", async () => {
+    try {
+      await navigator.clipboard.writeText(copy.dataset.copy);
+      copy.textContent = "Copied";
+    } catch {
+      // Refused (a browser setting): the address selected instead, to copy by hand.
+      getSelection()?.selectAllChildren(menu.querySelector(".menu-address"));
+      copy.textContent = "Selected";
+    }
+    clearTimeout(restore);
+    restore = setTimeout(() => (copy.textContent = "Copy"), 2000);
+  });
 }
 
 calmClips(); // before the clips get their files, so they don't start

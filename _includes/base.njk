@@ -157,13 +157,18 @@
       </div>
       <div class="menu-contact">
         <p class="menu-contact-lead">Questions, ideas, a bug? <strong>Write to me.</strong></p>
-        <a class="menu-mail" href="mailto:{{ site.email }}">
+        {#- The address as text, to select (one click selects all of it) or
+            copy with the button (download.js shows it: it needs the script);
+            the email app from the link under it. #}
+        <div class="menu-mail">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true">
             <rect x="3" y="5" width="18" height="14" rx="2" />
             <path d="M3 7l9 6 9-6" />
           </svg>
-          {{ site.email }}
-        </a>
+          <span class="menu-address">{{ site.email | replace("@", "@<wbr />") | safe }}</span>
+          <button class="menu-copy" type="button" data-copy="{{ site.email }}" hidden>Copy</button>
+        </div>
+        <a class="menu-write" href="mailto:{{ site.email }}">Open it in your email app</a>
       </div>
       <p class="menu-label">On the page</p>
       <ul class="menu-sections">

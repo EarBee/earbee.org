@@ -378,22 +378,56 @@ kbd {
   align-items: center;
   gap: 10px;
   margin: 12px 0 0;
-  padding: 10px 14px;
+  padding: 6px 6px 6px 14px;
   border-radius: var(--radius-sm);
   background: var(--accent-ink);
   color: var(--accent);
   font-weight: 800;
-  text-decoration: none;
-  overflow-wrap: anywhere;
-}
-.menu-mail:hover {
-  background: #000;
-  color: var(--accent-hover);
 }
 .menu-mail svg {
   flex: none;
   width: 20px;
   height: 20px;
+}
+/* One click selects the whole address, ready to copy. */
+.menu-address {
+  flex: 1;
+  min-width: 0;
+  padding: 4px 0;
+  overflow-wrap: break-word; /* on the narrowest, after the @ (<wbr>) */
+  user-select: all;
+  cursor: text;
+}
+.menu-address::selection {
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+.menu-copy {
+  flex: none;
+  min-width: 72px;
+  min-height: 34px;
+  padding: 0 12px;
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent);
+  border-radius: 6px;
+  background: none;
+  color: var(--accent);
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+.menu-copy:hover {
+  background: color-mix(in srgb, var(--accent) 16%, transparent);
+}
+.menu-write {
+  display: inline-block;
+  margin-top: 8px;
+  color: var(--accent-ink);
+  font-size: 15px;
+  font-weight: 700;
+}
+.menu-write:hover {
+  color: var(--accent-ink);
+  text-decoration-color: currentColor;
 }
 .menu-label {
   margin: 18px 0 6px;
