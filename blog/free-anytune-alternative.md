@@ -88,7 +88,7 @@ EarBee is the same program on Windows, Mac and Linux, with the same features on 
 To be fair to it, there are good reasons to use it:
 
 - **Phones and tablets.** If you practise with an iPad on your music stand, or your phone in your pocket, Anytune is there. EarBee runs on computers only.
-- **On stage.** Lyrics and tabs that scroll with the music, and control from a MIDI pedal or a Bluetooth keyboard, so your hands stay on your instrument. EarBee has neither.
+- **On stage.** Lyrics and tabs that scroll with the music, and hands-free control from a MIDI device or a Bluetooth keyboard. EarBee has neither.
 - **Streams on Android.** Anytune can slow down Spotify streams there; EarBee needs the song as a file or a YouTube link.
 - **Quick isolation, when the mix allows it.** ReFrame needs no waiting: when the part you want sits off to one side, you pick it out at once.
 
@@ -103,7 +103,7 @@ Yes, EarBee runs on Macs too. If you're on a Mac, you can also simply try both: 
 ## Which one would I pick?
 
 - **You practise on an iPhone, an iPad or an Android phone:** Anytune.
-- **You play on stage, with lyrics or tabs in front of you and a pedal at your feet:** Anytune.
+- **You play on stage, with lyrics or tabs in front of you, and want to control the player hands-free:** Anytune.
 - **You're on Windows or Linux:** EarBee.
 - **You want to see the player's hands on video, at any speed:** EarBee.
 - **You want the instrument out of the middle of the mix, not only from the sides:** EarBee's stems.
