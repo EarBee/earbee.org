@@ -218,8 +218,17 @@ function followThemesClip() {
   });
 }
 
+// The menu (_includes/base.njk): a link followed closes it, which matters
+// for a section of the page it's on (the page only scrolls).
+function setUpMenu() {
+  const menu = document.getElementById("site-menu");
+  if (!menu?.hidePopover) return;
+  for (const link of menu.querySelectorAll("a")) link.addEventListener("click", () => menu.hidePopover());
+}
+
 calmClips(); // before the clips get their files, so they don't start
 followThemesClip();
 setUpThemeSwitch();
+setUpMenu();
 fillDownloads();
 drawWave();

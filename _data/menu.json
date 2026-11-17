@@ -1,0 +1,10 @@
+[
+  { "id": "free", "label": "Free" },
+  { "id": "beats", "label": "Beats and bars" },
+  { "id": "stems", "label": "Stems" },
+  { "id": "what", "label": "What it does" },
+  { "id": "keys", "label": "Keys" },
+  { "id": "themes", "label": "Themes" },
+  { "id": "faq", "label": "Questions" },
+  { "id": "download", "label": "Download" }
+]

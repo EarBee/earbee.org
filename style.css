@@ -284,6 +284,162 @@ kbd {
   display: block;
 }
 
+/* ---------- Menu ----------
+   The button at the end of the top bar, and the menu it opens
+   (_includes/base.njk): a drawer from the right, the page dimmed behind
+   it. The contact first, as an amber card with the address as a button;
+   then the home page's sections; then the rest of the site. A popover, so
+   the browser keeps it above the page, and Esc or a click outside closes it. */
+
+.menu-button,
+.menu-close {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-sm);
+  background: none;
+  color: var(--muted);
+  cursor: pointer;
+}
+.menu-button {
+  margin-left: 2px;
+}
+.menu-button:hover,
+.menu-close:hover {
+  background: var(--surface-hover);
+  color: var(--text);
+}
+.menu-button svg,
+.menu-close svg {
+  width: 20px;
+  height: 20px;
+}
+
+.site-menu {
+  inset: 0 0 0 auto;
+  width: min(380px, 100%);
+  height: 100dvh;
+  max-height: none;
+  margin: 0;
+  padding: 16px 20px 24px;
+  border: 0;
+  border-left: 1px solid var(--hairline);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 16px;
+  overflow: auto;
+  transition:
+    transform 0.22s ease,
+    overlay 0.22s allow-discrete,
+    display 0.22s allow-discrete;
+}
+/* It slides in, and out. */
+.site-menu:not(:popover-open) {
+  transform: translateX(100%);
+}
+@starting-style {
+  .site-menu:popover-open {
+    transform: translateX(100%);
+  }
+}
+.site-menu::backdrop {
+  background: rgb(0 0 0 / 0.45);
+}
+.menu-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.menu-title {
+  font-family: var(--display);
+  font-size: 20px;
+}
+.menu-contact {
+  padding: 14px 16px;
+  border-radius: var(--radius-sm);
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+.menu-contact p {
+  margin: 0;
+}
+.menu-contact-lead {
+  font-size: 18px;
+}
+.menu-contact-lead strong {
+  white-space: nowrap;
+}
+.menu-mail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 12px 0 0;
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  background: var(--accent-ink);
+  color: var(--accent);
+  font-weight: 800;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+.menu-mail:hover {
+  background: #000;
+  color: var(--accent-hover);
+}
+.menu-mail svg {
+  flex: none;
+  width: 20px;
+  height: 20px;
+}
+.menu-label {
+  margin: 18px 0 6px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.menu-sections,
+.menu-more {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menu-sections a,
+.menu-more a {
+  display: block;
+  padding: 7px 10px;
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+  text-decoration: none;
+}
+.menu-sections a {
+  font-size: 17px;
+}
+.menu-sections a:hover,
+.menu-more a:hover {
+  background: var(--surface-hover);
+  color: var(--text);
+}
+.menu-more {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+.menu-more a {
+  color: var(--muted);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-menu {
+    transition: none;
+  }
+}
+
 /* ---------- Hero ---------- */
 
 .hero {
@@ -1212,12 +1368,13 @@ main > .post {
   .top .wordmark {
     font-size: 23px;
   }
-  .top nav a.nav-github {
-    display: none;
-  }
   /* Button-sized targets for a thumb. */
   .top nav a {
     min-height: 44px;
+  }
+  .menu-button {
+    width: 44px;
+    height: 44px;
   }
   .theme-switch {
     width: 44px;
@@ -1292,7 +1449,7 @@ main > .post {
   }
 }
 
-/* Small phones: the top bar, tighter, so its four items stay on one line. */
+/* Small phones: the top bar, tighter, so its items stay on one line. */
 @media (max-width: 400px) {
   .brand {
     gap: 8px;
@@ -1310,9 +1467,10 @@ main > .post {
     padding: 0 10px;
   }
 }
-/* The smallest (320 px): no room for Blog; the footer links to it. */
+
+/* The smallest (320 px): no room for Download in the bar; the menu has it. */
 @media (max-width: 349px) {
-  .top nav .nav-blog {
+  .top nav .nav-download {
     display: none;
   }
 }
