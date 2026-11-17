@@ -6,5 +6,9 @@
   "image": "/img/share.jpg",
   "imageAlt": "The EarBee window: a concert video of a guitarist, the song's waveform with a line on every beat and bar, one bar looping, and the speed, pitch and stems controls at the side.",
   "blogTitle": "The EarBee blog",
-  "blogDescription": "Learning songs by ear: transcribing, practising, and the player that helps."
+  "blogDescription": "Learning songs by ear: transcribing, practising, and the player that helps.",
+  "signup": {
+    "action": "https://app.kit.com/forms/10204509/subscriptions",
+    "field": "email_address"
+  }
 }

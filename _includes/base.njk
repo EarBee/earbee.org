@@ -18,6 +18,10 @@
     <title>{{ pageTitle }}</title>
     <meta name="description" content="{{ description }}" />
     <link rel="canonical" href="{{ page.url | absolute }}" />
+    {%- if sitemap === false %}
+    {#- Left out of the sitemap, and out of search results too. #}
+    <meta name="robots" content="noindex" />
+    {%- endif %}
     <meta name="theme-color" content="#0f0c0a" />
     <meta property="og:site_name" content="{{ site.name }}" />
     <meta property="og:type" content="{{ 'article' if schema == 'post' else 'website' }}" />
@@ -170,6 +174,9 @@
         </div>
         <a class="menu-write" href="mailto:{{ site.email }}">Open it in your email app</a>
       </div>
+      {%- set signupSize = "compact" %}
+      {%- set signupId = "menu" %}
+      {% include "signup.njk" %}
       <p class="menu-label">On the page</p>
       <ul class="menu-sections">
         {%- for item in menu %}
@@ -187,6 +194,17 @@
     <main>
 {{ content | safe }}
     </main>
+
+    {#- The signup, except where the page already has it in full (the home
+        page, after the download; a post, at its end) and on pages with
+        `signup: false` (the ones Kit sends people to after signing up). #}
+    {%- if page.url != "/" and "posts" not in (tags or []) and signup !== false %}
+    <div class="footer-signup">
+      {%- set signupSize = "compact" %}
+      {%- set signupId = "footer" %}
+      {% include "signup.njk" %}
+    </div>
+    {%- endif %}
 
     <footer>
       <img src="/img/logo.webp" alt="" width="28" height="27" />

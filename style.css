@@ -1115,6 +1115,101 @@ footer p {
   color: var(--muted);
 }
 
+/* ---------- Signup ----------
+   The email signup (_includes/signup.njk): a card after the download and at
+   the end of each post ("block"), one row in the menu and the footer
+   ("compact"). */
+
+.signup-block {
+  max-width: 620px;
+  margin-top: 40px;
+  padding: 24px;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+.post .signup-block {
+  max-width: none;
+  margin-top: 20px;
+}
+.signup-title {
+  margin: 0 0 6px;
+  font-size: 26px;
+}
+.download .signup-title::before {
+  display: none; /* the section's dash is for its own heading */
+}
+.signup-label {
+  display: block;
+  margin-bottom: 12px;
+  color: var(--muted);
+}
+.signup-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.signup-field {
+  flex: 1 1 220px;
+  min-width: 0;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--inset);
+  color: var(--text);
+  font: inherit;
+  font-size: 16px; /* 16 px or more, or phones zoom in on it */
+}
+.signup-field::placeholder {
+  color: var(--muted);
+  opacity: 0.7;
+}
+.signup-button {
+  cursor: pointer;
+}
+/* On a phone the button goes under the field: as wide as it. */
+@media (max-width: 480px) {
+  .signup-button {
+    flex-grow: 1;
+    justify-content: center;
+  }
+}
+.signup-note {
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+.signup-note a {
+  color: inherit;
+}
+.signup-compact .signup-label {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+.signup-compact .signup-field {
+  flex-basis: 180px;
+  padding: 9px 12px;
+}
+.signup-compact .button.primary {
+  padding: 9px 16px;
+  font-size: 16px;
+}
+.site-menu .signup {
+  margin-top: 14px;
+}
+/* Above the footer (on pages without the full one): the footer's line
+   then comes between it and the credits. */
+.footer-signup {
+  width: var(--page);
+  margin: 96px auto 0;
+}
+.footer-signup .signup {
+  max-width: 480px;
+}
+.footer-signup + footer {
+  margin-top: 28px;
+}
+
 /* ---------- Blog ----------
    The blog's page (blog.njk), a post (_includes/post.njk, its text from
    blog/*.md) and the 404 page: one readable column, in the page's own

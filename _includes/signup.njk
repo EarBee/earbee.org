@@ -1,0 +1,32 @@
+{#- The email signup: new releases and blog posts, sent by Kit. A plain form
+    that posts the address straight to Kit's form (site.json's signup), so
+    the page loads nothing of Kit's. Kit then sends an email to confirm
+    (double opt-in) and sends the visitor to /subscribed/; the link in that
+    email leads to /confirmed/. Before including it, set:
+      signupSize  "block" (a heading and a line, after the download and
+                  under posts) or "compact" (the field and the button on one
+                  row: the menu and the footer)
+      signupId    a name of its own, for the field's id: a page can hold
+                  several forms (the menu's is on every page) -#}
+<form class="signup signup-{{ signupSize }}" action="{{ site.signup.action }}" method="post">
+  {%- if signupSize == "block" %}
+  <h2 class="signup-title">Stay in the loop</h2>
+  {%- endif %}
+  <label class="signup-label" for="signup-{{ signupId }}">New releases and blog posts, by email. Nothing else.</label>
+  <div class="signup-row">
+    <input
+      id="signup-{{ signupId }}"
+      class="signup-field"
+      type="email"
+      name="{{ site.signup.field }}"
+      required
+      autocomplete="email"
+      placeholder="you@example.com"
+    />
+    <button class="button primary signup-button" type="submit">Subscribe</button>
+  </div>
+  <p class="signup-note">
+    You'll get an email to confirm. Unsubscribe in one click. Sent by
+    <a href="https://kit.com/privacy">Kit</a>.
+  </p>
+</form>
