@@ -2,8 +2,7 @@
 title: "Free Anytune alternative for Windows, Mac and Linux"
 description: "Looking for an Anytune alternative on Windows or Linux? How Anytune and EarBee compare for slowing down, looping and isolating parts, and which fits you."
 keyword: "anytune alternative"
-date: 2026-11-17
-draft: true
+date: 2026-11-18
 ---
 
 Looking for an Anytune alternative? If you're on Windows or Linux, where Anytune doesn't run, or you'd like a player that's free all the way through, I'd suggest [EarBee](/), a free, open-source player for Windows, Mac and Linux. I make it, so weigh my opinion accordingly. If you practise with a phone or a tablet on your music stand, EarBee isn't it: it runs on computers only, and I'll be fair about what else Anytune does better.
