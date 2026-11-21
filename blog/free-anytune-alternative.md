@@ -108,7 +108,7 @@ Yes, EarBee runs on Macs too. If you're on a Mac, you can also simply try both: 
 - **You want the instrument out of the middle of the mix, not only from the sides:** EarBee's stems.
 - **You're on a Mac and not sure:** try both on the same song for a week, and you'll know.
 
-If you're weighing up other tools too, here's [how EarBee compares with Amazing Slow Downer](/blog/free-alternative-to-amazing-slow-downer/) and with [Moises](/blog/free-moises-alternative/). And if you're new to all this, start with [how to slow down a song without changing the pitch](/blog/slow-down-a-song-without-changing-pitch/).
+If you're weighing up other tools too, here's [how EarBee compares with Amazing Slow Downer](/blog/free-alternative-to-amazing-slow-downer/), with [Moises](/blog/free-moises-alternative/) and with [Capo](/blog/capo-for-windows/). And if you're new to all this, start with [how to slow down a song without changing the pitch](/blog/slow-down-a-song-without-changing-pitch/).
 
 ## Try EarBee
 

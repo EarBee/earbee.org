@@ -104,7 +104,7 @@ You may already have [VLC](https://www.videolan.org/vlc/). It keeps the pitch wh
 Some of the best-known tools for practising with recordings have no Linux version. I checked each one's own site in November 2026:
 
 - **Amazing Slow Downer:** Windows, Mac, iPhone and iPad, and Android ([Roni Music](https://www.ronimusic.com/slowdown.htm)).
-- **Capo:** Mac, iPhone and iPad only ([Capo](https://supermegaultragroovy.com/products/capo/)).
+- **Capo:** Mac, iPhone and iPad only ([Capo](https://supermegaultragroovy.com/products/capo/)); here's [how it compares with EarBee](/blog/capo-for-windows/).
 - **Anytune:** Mac, iPhone and iPad, and Android ([Anytune](https://www.anytune.app/)).
 - **Song Surgeon:** Windows and Mac ([Song Surgeon](https://www.songsurgeon.com/)).
 - **Moises** is the exception: it does run on Linux. Its desktop app comes as an AppImage, and its web app runs in the browser ([Moises](https://moises.ai/)). It's a subscription with a limited free plan; here's [how it compares with EarBee](/blog/free-moises-alternative/).
